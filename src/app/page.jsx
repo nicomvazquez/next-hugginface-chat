@@ -3,7 +3,7 @@ import React from "react";
 
 import { useChat } from "ai/react";
 
-function page() {
+function Page() {
   const { handleInputChange, handleSubmit, input, isLoading, messages } =
     useChat();
 
@@ -62,4 +62,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
